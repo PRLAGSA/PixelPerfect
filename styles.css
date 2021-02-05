@@ -692,7 +692,6 @@ section {
   width: 300px;
   height: 200px;
   margin-right: 20px;
-  background-color: #ab0427;
 }
 
 .PlaceLast {
@@ -749,4 +748,33 @@ section {
   font-family: "ssproBold";
   font-weight: bold;
   margin-left: 5px;
+}
+
+.bbbuton {
+  display: grid;
+  justify-content: centera;
+  align-items: center;
+  position: absolute;
+  left: 630px;
+  top: 519.5px;
+  height: 49px;
+  width: 198px;
+  border: 1px solid white;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+}
+h5 {
+  color: red;
+  /* background-color: tomato; */
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: white;
+  letter-spacing: 0.5px;
 }
