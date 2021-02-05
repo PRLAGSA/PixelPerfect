@@ -433,14 +433,14 @@ section {
   text-align: center;
   background-size: cover;
   position: relative;
-  top: 10px;
+  top: 11px;
   left: 14px;
-  width: 682px;
+  width: 683px;
 }
 
 .container2 {
   display: flex;
-
+  padding-left: 12px;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -455,21 +455,26 @@ section {
   position: absolute;
   z-index: 2;
   top: 889px;
+  padding-right: 14px;
+  padding-top: 1px;
 }
 
 .metrame {
   position: absolute;
   z-index: 2;
-  top: 966px;
+  top: 972px;
   font-family: "ssproBold";
   font-weight: bold;
-  font-size: 48px;
+  letter-spacing: 0.03px;
+  padding-right: 9px;
+  font-size: 48.5px;
+  line-height: 50px;
   color: #bf0a30;
 }
 
 .textContainer1 {
-  margin-right: 30px;
-  width: 464px;
+  margin-right: 32px;
+  width: 460px;
 }
 
 .textContainer2 {
@@ -478,99 +483,118 @@ section {
 }
 
 .textWRAPPER {
-  top: 1056px;
+  top: 1060px;
   display: flex;
   position: absolute;
   z-index: 2;
+  padding-right: 20px;
 }
 
 .contentText1 {
-  top: 60px;
+  top: 61.5px;
   position: absolute;
   width: 464px;
   font-size: 16px;
   font-family: "ssproReg";
   margin-left: 4px;
+  line-height: 25px;
+  color: #333333;
 }
 
 .contentText2 {
-  top: 150px;
+  top: 152px;
   position: absolute;
   width: 464px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 4px;
+  margin-left: 3.5px;
   font-weight: bold;
   height: 25px;
   color: #333333;
+  line-height: 25px;
+  letter-spacing: 0.5px;
 }
 .contentText3 {
-  top: 190px;
+  top: 192px;
   position: absolute;
   width: 464px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 4px;
+  margin-left: 4.2px;
   height: 25px;
   color: #333333;
+  line-height: 25px;
 }
 
 .header1 {
+  padding-top: 2px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #002868;
   font-family: "ssproBold";
+  line-height: 20px;
+  padding-right: 0px;
+  margin-right: -3px;
+  text-align: left;
+  height: 40px;
+  letter-spacing: 0.14px;
 }
 .header2 {
   font-size: 18px;
   font-weight: bold;
   color: #002868;
   font-family: "ssproBold";
-  margin-left: 5px;
+  margin-left: 6px;
+  line-height: 20px;
+  padding-top: 2px;
 }
 
 .contentText22 {
   display: flex;
-  top: 60px;
+  top: 64px;
   position: absolute;
   width: 464px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 0px;
+  margin-left: 1px;
 }
 
 .contentText23 {
   display: flex;
-  top: 95px;
+  top: 97px;
   position: absolute;
-  width: 464px;
+  width: 479px;
   font-size: 16px;
   font-family: "ssproReg";
   margin-left: 0px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
 }
 .contentText24 {
   display: flex;
-  top: 125px;
+  top: 127px;
   position: absolute;
-  width: 464px;
+  width: 470px;
   font-size: 16px;
   font-family: "ssproReg";
   margin-left: 0px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
 }
 
 .contentText25 {
   display: flex;
-  top: 175px;
+  top: 179px;
   position: absolute;
   width: 464px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 0px;
+  margin-left: 1px;
 }
 
 .contentText26 {
   display: flex;
-  top: 210px;
+  top: 213px;
   position: absolute;
   width: 464px;
   font-size: 16px;
@@ -582,12 +606,34 @@ section {
   width: 14px;
   height: 14px;
   color: #002868;
+  padding-top: 4px;
+  padding-right: 2px;
+}
+.rightarrow2 {
+  width: 14px;
+  height: 14px;
+  color: #002868;
   padding-top: 3px;
+  padding-right: 2px;
+}
+.rightarrow3 {
+  width: 14px;
+  height: 14px;
+  color: #002868;
+  padding-top: 3px;
+  padding-right: 2px;
+}
+.rightarrow4 {
+  width: 14px;
+  height: 14px;
+  color: #002868;
+  padding-top: 3px;
+  padding-right: 2px;
 }
 
 .eggrafes {
   position: absolute;
-  top: 1331px;
+  top: 1335px;
   font-size: 18px;
   font-weight: bold;
   color: #bf0a30;
@@ -596,15 +642,16 @@ section {
 
 .teliti {
   position: absolute;
-  top: 1356px;
+  top: 1362px;
   font-size: 34px;
   font-weight: bold;
   color: #002868;
   font-family: "ssproBold";
+  padding-right: 1px;
 }
 .newYork {
   position: absolute;
-  top: 1408px;
+  top: 1412px;
   font-size: 18px;
   font-weight: bold;
   color: #002868;
