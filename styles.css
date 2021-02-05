@@ -1,0 +1,634 @@
+@font-face {
+  font-family: ProximaNovaBold;
+  src: url(./fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ProximaNovaReg;
+  src: url(./fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Regular.otf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: ssproBold;
+  src: url(./fonts/SourceSansPro-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ssproReg;
+  src: url(./fonts/SourceSansPro-Regular.ttf);
+  font-weight: regular;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "ssproReg", serif;
+  font-weight: regular;
+  font-size: 16px;
+}
+
+header {
+  padding: 0px;
+  margin: 0px;
+  /* width: 1460px; */
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 750px;
+}
+
+.top_bar {
+  height: 70px;
+  background-color: rgba(29, 70, 70, 0);
+  display: flex;
+  left: 285px;
+  padding-right: 97px;
+}
+
+.main_bar {
+  height: 60px;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-right: 60px;
+  position: relative;
+  background: rgb(255, 255, 255);
+}
+
+.container {
+  /* width: 1360px; */
+  margin: 0 auto;
+  padding: 0px;
+  height: 200px;
+  background-color: rgba(255, 38, 0, 0);
+}
+
+.logo {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  border: 10px solid #ab0427;
+  left: 50px;
+  /* top: -70px; */
+  top: 50%;
+  transform: translateY(-50%);
+}
+img {
+  display: block;
+}
+
+.main_menu_items {
+  padding-left: 283px;
+  list-style: none;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+}
+
+li a {
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  font-family: "ssproBold", serif;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 14px;
+  line-height: 30px;
+  /* padding-right: -26px; */
+
+  /* color: #002868; */
+}
+
+.mail_iconI_main_menu {
+  padding-right: 39px;
+  padding-left: 4px;
+}
+.mail_iconI_main_menu:hover {
+  padding-right: 39px;
+  color: #bf0a30;
+}
+
+.main_menu_items a {
+  color: #002868;
+}
+.main_menu_items a:hover {
+  color: #bf0a30;
+}
+
+.menuTextMainAAAAAAAAAAAAAAAAAAAAAAAAA {
+  position: absolute;
+  height: 18px;
+  left: 0%;
+  right: 90.46%;
+  top: calc(50% - 18px / 2);
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #002868;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.centered_image {
+  border-radius: 50%;
+  border: 6px solid white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+}
+
+.mainTopBar {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  background-color: rgba(255, 0, 0, 0);
+  top: 14px;
+  position: relative;
+  left: 0px;
+  width: 100vw;
+  /* width: 1078px; */
+  margin-right: 0px;
+}
+
+.first {
+  display: flex;
+  height: 44px;
+  padding-left: 20px;
+}
+
+.info {
+  display: grid;
+  left: 5px;
+  position: relative;
+}
+.clock {
+  top: 17px;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  padding-top: 0px;
+  margin-left: 3px;
+}
+
+.time {
+  position: absolute;
+  height: 32px;
+  left: 0;
+  right: 0%;
+  top: calc(50% - 32px / 2 + 6px);
+  color: white;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.5px;
+  line-height: 32px;
+  padding-top: 1px;
+}
+.arkadia {
+  font-weight: 400;
+  font-family: "ssproReg";
+  line-height: auto;
+  font-size: 12px;
+  letter-spacing: 2.35px;
+  padding-left: 1px;
+  color: white;
+}
+
+.second {
+  display: flex;
+  height: 44px;
+  padding-left: 20px;
+  margin-left: 1px;
+}
+.farenheit {
+  font-family: "ProximaNovaReg";
+  font-weight: 400;
+  color: white;
+  font-size: 25.5px;
+  padding-left: 1px;
+  opacity: 40%;
+  letter-spacing: 2.3px;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+  height: 24px;
+  right: 0px;
+  right: 0px;
+  position: relative;
+}
+.user {
+  width: 24px;
+  height: 24px;
+  padding-bottom: 3px;
+  margin-right: 1px;
+}
+
+.eggrafi {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5px;
+  height: 18px;
+  font-family: "ssproBold";
+  font-weight: 300;
+  color: white;
+  font-size: 14px;
+
+  top: 0px;
+}
+
+.greekFlag {
+  display: flex;
+  text-align: center;
+  height: 18px;
+  width: 28px;
+  margin-left: 42px;
+  position: relative;
+  top: -1px;
+}
+
+.imageContainer {
+  text-align: center;
+  top: 42px;
+}
+
+.eggrafiContainer {
+  display: flex;
+  background-color: rgba(255, 0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 24px; */
+}
+
+.arrow {
+  background-color: rgba(255, 99, 71, 0);
+  position: relative;
+  padding: 0px;
+  padding-top: -1px;
+  margin-left: 4px;
+}
+
+.arrowImage {
+  width: 14px;
+  height: 14px;
+}
+
+/* .federation {
+  left: 286px;
+  top: 150px;
+  position: absolute;
+} */
+
+.federationContainer {
+  display: grid;
+  top: 150px;
+  position: relative;
+  padding-left: 0px;
+}
+
+.pan {
+  background-image: url(./images/PAF.png);
+  height: 23px;
+  left: 286px;
+  position: relative;
+}
+
+.centerWrap {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  background-color: rgba(255, 0, 255, 0);
+  bottom: 5px;
+}
+
+.iiicon {
+  display: grid;
+
+  position: absolute;
+  height: 350px;
+  width: 385px;
+  background-color: rgba(0, 128, 128, 0);
+  top: 43px;
+  left: 38px;
+}
+
+.greekIcon {
+  position: absolute;
+  left: 181px;
+}
+
+.welcome {
+  position: relative;
+  padding-left: 3px;
+  height: 15px;
+  left: 0px;
+  right: 0px;
+  top: 33.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.apostoli {
+  position: absolute;
+  height: 30px;
+  left: 107px;
+
+  top: calc(50% - 30px / 2 - 80px);
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.text {
+  height: 130px;
+  position: absolute;
+  font-family: "ssproReg";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  height: 130px;
+  line-height: 25px;
+  color: white;
+  left: 0px;
+  top: 40%;
+  bottom: 22.86%;
+  font-size: 16px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  box-sizing: border-box;
+  position: absolute;
+  left: 93px;
+  right: 23.9%;
+  top: 85.81%;
+  bottom: 0%;
+  font-family: "ssproReg";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.perisotera {
+  font-family: "ssproReg";
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.backGround {
+  height: 744px;
+  background-color: #f8f8f8;
+}
+
+.starsImage {
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  top: 10px;
+  left: 14px;
+  width: 682px;
+}
+
+.container2 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.fireworks {
+  position: absolute;
+  z-index: 2;
+  top: 790px;
+}
+
+.roots {
+  position: absolute;
+  z-index: 2;
+  top: 889px;
+}
+
+.metrame {
+  position: absolute;
+  z-index: 2;
+  top: 966px;
+  font-family: "ssproBold";
+  font-weight: bold;
+  font-size: 48px;
+  color: #bf0a30;
+}
+
+.textContainer1 {
+  margin-right: 30px;
+  width: 464px;
+}
+
+.textContainer2 {
+  margin-left: 30px;
+  width: 464px;
+}
+
+.textWRAPPER {
+  top: 1056px;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+}
+
+.contentText1 {
+  top: 60px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 4px;
+}
+
+.contentText2 {
+  top: 150px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 4px;
+  font-weight: bold;
+  height: 25px;
+  color: #333333;
+}
+.contentText3 {
+  top: 190px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 4px;
+  height: 25px;
+  color: #333333;
+}
+
+.header1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #002868;
+  font-family: "ssproBold";
+}
+.header2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #002868;
+  font-family: "ssproBold";
+  margin-left: 5px;
+}
+
+.contentText22 {
+  display: flex;
+  top: 60px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 0px;
+}
+
+.contentText23 {
+  display: flex;
+  top: 95px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 0px;
+}
+.contentText24 {
+  display: flex;
+  top: 125px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 0px;
+}
+
+.contentText25 {
+  display: flex;
+  top: 175px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 0px;
+}
+
+.contentText26 {
+  display: flex;
+  top: 210px;
+  position: absolute;
+  width: 464px;
+  font-size: 16px;
+  font-family: "ssproReg";
+  margin-left: 0px;
+}
+
+.rightarrow {
+  width: 14px;
+  height: 14px;
+  color: #002868;
+  padding-top: 3px;
+}
+
+.eggrafes {
+  position: absolute;
+  top: 1331px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #bf0a30;
+  font-family: "ssproBold";
+}
+
+.teliti {
+  position: absolute;
+  top: 1356px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #002868;
+  font-family: "ssproBold";
+}
+.newYork {
+  position: absolute;
+  top: 1408px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #002868;
+  font-family: "ssproBold";
+}
+
+.MainGrid {
+  height: 650px;
+  background-color: #002868;
+}
+.top {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+.top_title {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 12px;
+  font-family: "ssproBold";
+  font-weight: bold;
+}
