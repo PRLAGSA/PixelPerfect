@@ -1124,17 +1124,16 @@ section {
 }
 
 .footerOne {
-  width: 1460;
   height: 22px;
   margin-top: 53px;
-  background-color: black;
+  background-color: rgb(189, 20, 20);
 }
 
 .footerTwo {
   display: flex;
   flex-direction: column;
   height: 420px;
-  background-color: rgb(77, 77, 77);
+  background-color: #002868;
 }
 
 .footerContent {
@@ -1150,8 +1149,8 @@ section {
 .top_arrow {
   position: relative;
   top: -22px;
-  margin-left: 1316px;
-  background-color: teal;
+  margin-left: 1216px;
+  background-color: rgba(0, 128, 128, 0);
   width: 44px;
   height: 44px;
 }
@@ -1165,7 +1164,7 @@ section {
   margin-bottom: 20px;
   width: 180px;
   height: 180px;
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0);
 }
 
 .panFooter {
@@ -1173,6 +1172,13 @@ section {
   justify-content: center;
   position: absolute;
   margin-top: 230px;
+}
+
+.socialFooter {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 280px;
 }
 /* .messageICON {
   width: 16px;
