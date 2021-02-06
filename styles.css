@@ -779,7 +779,7 @@ section {
   height: 457px;
   margin: 0 auto;
   margin-top: 62px;
-  border-bottom: 1px solid rgb(61, 61, 61);
+  border-bottom: 1px solid #eeeeee;
   background-color: rgba(47, 79, 79, 0);
 }
 
@@ -929,7 +929,7 @@ section {
   background-size: cover;
   left: 10px;
   position: absolute;
-  top: 115.5px;
+  top: 117px;
   /* top: calc(50% - 16px / 2 + 9.5px); */
   margin-right: 5px;
 }
@@ -1004,6 +1004,76 @@ section {
   /* top: calc(50% - 16px / 2 + 9.5px); */
   margin-right: 0px;
 }
+
+/*///////////////////////////////////////////////////MESSAGE//////////////////////////////////*/
+
+.message {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.messageInput {
+  width: 619px;
+  height: 119px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.messageAreaWrapper {
+  display: flex;
+  width: 532.88px;
+  padding-left: 0px;
+  height: 46px;
+  background-color: rgba(58, 23, 184, 0);
+  margin-left: 10px;
+}
+
+.messageArea {
+  width: 250px;
+  height: 25px;
+  top: 11px;
+  position: relative;
+  background-color: rgba(216, 19, 19, 0);
+  border-style: none;
+  border: 0px;
+  outline: 0.5px;
+  outline-color: rgb(0, 153, 255);
+  /* outline: none; */
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .messageICON {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/folder_icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 9px;
+  margin-top: 14px;
+  position: absolute;
+
+  /* top: calc(50% - 16px / 2 + 9.5px); */
 
 /* .contactForm {
   display: grid;
