@@ -59,7 +59,7 @@ header {
 }
 
 .container {
-  /* width: 1360px; */
+  width: 1360px;
   margin: 0 auto;
   padding: 0px;
   height: 200px;
@@ -642,7 +642,7 @@ section {
 
 .teliti {
   position: absolute;
-  top: 1362px;
+  top: 1363px;
   font-size: 34px;
   font-weight: bold;
   color: #002868;
@@ -661,6 +661,8 @@ section {
 .MainGrid {
   height: 650px;
   background-color: #002868;
+  padding: 0 100px;
+  margin-top: 10px;
 }
 .top {
   display: grid;
@@ -750,41 +752,11 @@ section {
   margin-left: 5px;
 }
 
-.bbbuton {
-  display: grid;
-  justify-content: centera;
-  align-items: center;
-  position: relative;
-  left: 930px;
-
-  height: 49px;
-  width: 198px;
-  border: 1px solid white;
-  border-radius: 4px;
-  text-align: center;
-  justify-content: center;
-}
-h5 {
-  color: red;
-  /* background-color: tomato; */
-  margin: 0px;
-  padding: 0px;
-  position: relative;
-  left: 0px;
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 18px;
-  color: white;
-  letter-spacing: 0.5px;
-}
-
 .lastt {
   display: grid;
   justify-content: center;
   align-items: center;
-  top: 552px;
+  top: 562px;
   position: relative;
   font-family: Source Sans Pro;
   font-style: normal;
@@ -800,3 +772,205 @@ h5 {
   border: 1px solid white;
   border-radius: 4px;
 }
+
+.contactForm {
+  display: grid;
+  width: 740px;
+  height: 457px;
+  margin: 0 auto;
+  margin-top: 62px;
+  border-bottom: 1px solid rgb(61, 61, 61);
+  background-color: rgba(47, 79, 79, 0);
+}
+
+.contactTopTitle {
+  position: absolute;
+  width: 745px;
+  height: 15px;
+  margin: 0 auto;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #eeeeee;
+  color: #002868;
+}
+
+.imputContainer {
+  display: grid;
+  width: 619px;
+  height: 378px;
+  top: 52px;
+  left: 60px;
+  position: relative;
+  border: 1px solid white;
+  background-color: rgba(143, 188, 143, 0);
+}
+.nameSection {
+}
+
+.name {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+}
+
+.nameInput {
+  width: 619px;
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.nameAreaWrapper {
+  width: 210px;
+  height: 46px;
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 10px;
+}
+
+.nameArea {
+  width: 250px;
+  height: 25px;
+  top: 10.5px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  border: 0px;
+  outline: none;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+
+/* .contactForm {
+  display: grid;
+  width: 740px;
+  height: 457px;
+  background-color: #f2f2f2;
+  top: 62px;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(236, 12, 12);
+}
+
+.contactForm222 {
+  display: grid;
+  width: 200px;
+  height: 50px;
+
+  top: 0px;
+  position: relative;
+
+  background-color: indigo;
+  margin-top: 21px;
+}
+
+.notifications {
+  display: grid;
+
+  margin: 0 auto;
+  width: 740px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  color: #002868;
+}
+
+.Form {
+  width: 619px;
+  height: 378px;
+  border: 1px solid rgba(182, 182, 182, 0);
+  display: grid;
+  margin-top: 16px;
+  margin: 0 auto;
+}
+.name {
+  display: grid;
+  width: 619px;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0px;
+  margin-top: 16px;
+  padding: 0px;
+}
+
+.name1 {
+  margin-top: 15px;
+}
+.onomat {
+  margin-bottom: 4px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.15px;
+  color: #333333;
+}
+.onomat_field {
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0px;
+  padding: 0;
+}
+.onomat_field2 {
+  height: 119px;
+  width: 619px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.phobe_icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: 10px;
+  top: 15px;
+}
+.folder_icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: 9px;
+
+  top: 14px;
+}
+
+.sendButton {
+  width: 200px;
+  height: 50px;
+  left: 799px;
+  background-color: indianred;
+} */
