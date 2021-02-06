@@ -1167,6 +1167,13 @@ section {
   height: 180px;
   background-color: tomato;
 }
+
+.panFooter {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 230px;
+}
 /* .messageICON {
   width: 16px;
   height: 16px;
