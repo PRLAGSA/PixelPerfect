@@ -861,7 +861,79 @@ section {
   font-size: 16px;
   line-height: 25px;
   color: #999999;
+  padding: 0px;
+  margin: 0px;
 }
+/*////////////--TELEPHONE--/////////////*/
+
+.telephone {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.telephoneInput {
+  width: 619px;
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.telephoneAreaWrapper {
+  display: flex;
+  width: 190px;
+  height: 46px;
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 31px;
+}
+
+.telephoneArea {
+  width: 250px;
+  height: 25px;
+  top: 9px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  border: 0px;
+  outline: 0.5px;
+  outline-color: rgb(0, 153, 255);
+  /* outline: none; */
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+
+.telephoneICON {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 10px;
+  position: absolute;
+  top: 115.5px;
+  /* top: calc(50% - 16px / 2 + 9.5px); */
+  margin-right: 5px;
+}
+/*---------------------------------------------------EMAIL-------------------------------------------*/
 
 /* .contactForm {
   display: grid;
