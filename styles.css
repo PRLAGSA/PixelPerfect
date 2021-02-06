@@ -1063,6 +1063,60 @@ section {
   margin: 0px;
 }
 
+/*----------------------------------------/////////////////////BUTTON//////////////////////////------------------------------*/
+
+.container_button {
+  width: 1460px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 21px;
+  border: 0px;
+  background-color: rgba(54, 128, 25, 0);
+}
+
+.apostoliButtom {
+  display: flex;
+  width: 240px;
+  height: 50px;
+  margin-top: 21px;
+  left: 799px;
+  border-radius: 4px;
+  position: relative;
+  background-color: #bf0a30;
+  cursor: pointer;
+
+  /*------------------*/
+}
+.arrowSend {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 10px;
+  top: calc(50% - 24px / 2);
+  color: white;
+}
+
+.apostoliText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -3px;
+  color: white;
+  position: absolute;
+  height: 18px;
+  left: 0px;
+  right: 0%;
+  align-items: center;
+  padding: 0px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  line-height: 18px;
+  cursor: pointer;
+}
+
 /* .messageICON {
   width: 16px;
   height: 16px;
