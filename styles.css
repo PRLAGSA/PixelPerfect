@@ -31,7 +31,8 @@ body {
 }
 
 header {
-  padding: 0px;
+  padding-left: 40px;
+  padding-right: 60px;
   margin: 0px;
   /* width: 1460px; */
   background-image: url(./images/bg.png);
@@ -45,8 +46,9 @@ header {
   height: 70px;
   background-color: rgba(29, 70, 70, 0);
   display: flex;
+  margin-left: 40px;
   left: 285px;
-  padding-right: 97px;
+  padding-right: 60px;
 }
 
 .main_bar {
@@ -57,9 +59,14 @@ header {
   position: relative;
   background: rgb(255, 255, 255);
 }
-
+.superContainer {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 60px;
+}
 .container {
-  width: 1360px;
+  width: 1460px;
   margin: 0 auto;
   padding: 0px;
   height: 200px;
@@ -133,7 +140,6 @@ li a {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-  /* identical to box height */
 
   color: #002868;
 }
@@ -142,6 +148,7 @@ section {
   display: flex;
   justify-content: center;
   padding-top: 80px;
+  margin-left: 37px;
 }
 
 .centered_image {
@@ -157,7 +164,7 @@ section {
   background-color: rgba(255, 0, 0, 0);
   top: 14px;
   position: relative;
-  left: 0px;
+  left: -40px;
   width: 100vw;
   /* width: 1078px; */
   margin-right: 0px;
@@ -309,7 +316,7 @@ section {
 .pan {
   background-image: url(./images/PAF.png);
   height: 23px;
-  left: 286px;
+  left: 246px;
   position: relative;
 }
 
