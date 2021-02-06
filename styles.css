@@ -1117,6 +1117,56 @@ section {
   cursor: pointer;
 }
 
+/*----------------------------------------------------------FOOTER--------------------------------------------------*/
+
+.footerCONTAINER {
+  display: grid;
+}
+
+.footerOne {
+  width: 1460;
+  height: 22px;
+  margin-top: 53px;
+  background-color: black;
+}
+
+.footerTwo {
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  background-color: rgb(77, 77, 77);
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 1460px;
+  height: 420px;
+  background-color: rgb(90, 133, 116);
+}
+
+.top_arrow {
+  position: relative;
+  top: -22px;
+  margin-left: 1316px;
+  background-color: teal;
+  width: 44px;
+  height: 44px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 180px;
+  background-color: tomato;
+}
 /* .messageICON {
   width: 16px;
   height: 16px;
