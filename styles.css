@@ -935,6 +935,76 @@ section {
 }
 /*---------------------------------------------------EMAIL-------------------------------------------*/
 
+.email {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.emailInput {
+  width: 619px;
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.emailAreaWrapper {
+  display: flex;
+  width: 210px;
+  padding-left: 21px;
+  height: 46px;
+  background-color: rgba(184, 23, 23, 0);
+  margin-left: 10px;
+}
+
+.emailArea {
+  width: 250px;
+  height: 25px;
+  top: 9px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  border: 0px;
+  outline: 0.5px;
+  outline-color: rgb(0, 153, 255);
+  /* outline: none; */
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+
+.emailICON {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/folder_icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 9px;
+  margin-top: 14px;
+  position: absolute;
+
+  /* top: calc(50% - 16px / 2 + 9.5px); */
+  margin-right: 0px;
+}
+
 /* .contactForm {
   display: grid;
   width: 740px;
